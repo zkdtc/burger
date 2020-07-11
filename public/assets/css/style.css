@@ -1,7 +1,35 @@
+/* body {
+  width:100%;
+  background-image: url("../image/burger.png");
+  background-color: #cccccc;
+  background-size: contain;
+ } */
+h1{
+  text-align:center;
+}
+ div.background {
+  height:800px;
+  background-image: url("../image/burger.png");
+  /* background: url("../image/burger.png") repeat; */
+  background-size: contain;
+  border: 2px solid black;
+}
+
+div.transbox {
+  width:90%;
+  height:80%;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+}
+
 li {
+  font-weight: bold;
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  list-style-type:decimal;
 }
 
 .label {
